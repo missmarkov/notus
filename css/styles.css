@@ -1,0 +1,51 @@
+*, html, body {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+body {
+    background: #081B2F 0% 0% no-repeat padding-box;
+    min-width: 320px;
+    opacity: 1;
+    
+    /* #32485F*/
+}
+.text-small{
+    display: inline-block;
+    font-size: .6rem;
+    margin-top: 2.5rem;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 35vh; 
+}
+.loading{
+    height: 20vh;
+    opacity: 0;
+    animation-name: loading;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+/*
+@medi4 screen and (min-width: 320px){
+
+}
+@media screen and (min-width: 476px){
+
+}
+*/
+@media screen and (min-width: 1280px){
+    
+   
+    
+}
